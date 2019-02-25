@@ -1,21 +1,9 @@
-<div class="col-4">
-  <h3>The Burgers</h3>
-  <ul>
-    {{#each burgers}}
-    {{#if devoured}}
-    {{else}}
-    <p>{{burger_name}} <button class="devour-btn btn btn-danger" data-id={{id}}>Devour</button></p>
-    {{/if}}
-    {{/each}}
-  </ul>
-</div>
-
-<div class="col-4">
-  <h2>Add a Burger</h2>
+<div class="col-5">
+  <h2 class="add-burger">Add a Burger to the Menu</h2>
   <form class="create-form">
 
     <div class="form-group">
-      <label for="burger-input">Burger Name:</label>
+      <label for="burger-input">🍔 Name:</label>
       <input type="text" id="burger-input" name="name">
     </div>
 
@@ -23,11 +11,39 @@
   </form>
 </div>
 
-<div class="col-4">
-  <h3>Devoured Burgers</h3>
+<div class="col-2"></div>
+
+<div class="col-5">
+  <h3 class="eat-this">MENU</h3>
+  <ul>
+    {{#each burgers}}
+    {{#if devoured}}
+    {{else}}
+    <div class="container">
+      <div class="row">
+        <div class="col-8">
+          <p>{{burger_name}}</p>
+        </div>
+        <div class="col-2">
+          <button class="devour-btn btn btn-danger" data-id={{id}}>Devour</button>
+        </div>
+      </div>
+    
+    </div>
+    {{/if}}
+    {{/each}}
+  </ul>
+</div>
+
+<div class="col-5"></div>
+
+<div class="col-2"></div>
+
+<div class="col-5">
+  <h3 class="devoured-burger">Burger-Eating History</h3>
   {{#each burgers}}
   {{#if devoured}}
-    <p>{{burger_name}}</p>
+    <p class="devoured-history">{{burger_name}}</p>
   {{/if}}
   {{/each}}
 </div>

@@ -1,30 +1,60 @@
 body {
-    font-family: Raleway, sans-serif;
+    font-family: 'Laila', serif;
     color: #383F51;
-    background-color: #E2ADF2;
+    background-color: yellow;
+}
+
+.header {
+    box-shadow: 0 4px 40px rgba(25, 4, 69, 0.1);
+    background-color: rgba(211, 211, 211, 0.4);
+    border-radius: 15px;
 }
 
 #page-title {
+    padding-top: 0.6em;
     text-align: center;
-    padding: 5px;
+    margin-top: 1.5em;
 }
 
 .logo {
     text-align: center;
-    font-family: 'Shadows Into Light', serif;
+    font-family: 'Loto', sans-serif;
     font-size: 18px;
     font-weight: bold;
     letter-spacing: 1px;
+    padding-bottom: 0.6em;
+    margin-bottom: 3.5em;
+}
+
+.eat-this {
+    box-shadow: 0 4px 40px rgba(25, 4, 69, 0.1);
+    background-color: rgba(211, 211, 211, 0.4);
+    border-radius: 5px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.add-burger {
+    padding: .3em;
+    box-shadow: 0 4px 40px rgba(25, 4, 69, 0.1);
+    background-color: rgba(211, 211, 211, 0.4);
+    border-radius: 5px;
+    text-decoration: underline;
+    margin-bottom: 1em;
+}
+
+.devoured-burger {
+    box-shadow: 0 4px 40px rgba(25, 4, 69, 0.1);
+    background-color: rgba(211, 211, 211, 0.4);
+    border-radius: 5px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.devoured-history {
+    text-align: center;
 }
 
 .phone-home {
     color: #7B9EA8;
-}
-
-h2 {
-
-}
-
-h3 {
-
 }
