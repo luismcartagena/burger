@@ -1,0 +1,30 @@
+body {
+    font-family: Raleway, sans-serif;
+    color: #383F51;
+    background-color: #E2ADF2;
+}
+
+#page-title {
+    text-align: center;
+    padding: 5px;
+}
+
+.logo {
+    text-align: center;
+    font-family: 'Shadows Into Light', serif;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.phone-home {
+    color: #7B9EA8;
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
